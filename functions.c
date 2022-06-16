@@ -14,4 +14,8 @@ void main() {
     D.marks = 99;
     D.rollno = 18;
     display();
+
+    struct student C = {23,34.00};
+    printf("%d %f", C.rollno, C.marks);
+
 }
